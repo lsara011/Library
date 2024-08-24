@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="profile">
+            <div class="name">
+                <h1>Hello, Welcome to my library!</h1>
+            </div>
+
+        </div>
+        <div class="add-book">
+            <form>
+                <input type="text" id="bookTitle" placeholder="Book Title:" required>
+                <input type="text" id="pages" placeholder="Pages:" required>
+                <input type="text" id="author" placeholder="Author:" required>
+                <label for="didRead">Did you read this book? </label>
+                <input type="checkbox" id="didRead" name="didRead" required>
+                <div class="button-add">
+                    <button type="button" onclick="addBook()">Add Book!</button>
+                    <button type="button" onclick="removeBook()" class="remove-book">Remove Book</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <section>
+        <div class="bookSection">
+                <div class="books-added"></div>
+        </div>
+    </section>
+
+</body>
+    <script src="script.js"></script>
+</html>

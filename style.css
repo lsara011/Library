@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    border-radius: 55px;
+    box-shadow: 3px 3px 3px rgb(177, 173, 173);
+}
+.name h1{
+    color: black;
+    padding: 25px;
+}
+
+body{
+    background-color: rgb(196, 192, 188);
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+input{
+    border: none;
+    height: 30px;
+    border-bottom: 2px dotted black;
+    margin: 0 100px;
+}
+
+.button-add button{
+    padding: 10px;
+    width: 300px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.bookSection {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.books-added {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    width: 100%;
+}
+
+.remove-book{
+    margin-top: 10px;
+}
+
+.book-details {
+    background-color: #a5aab0;
+    border-left: 5px solid #007BFF;
+    padding: 10px;
+    margin: 5px;
+    width: 375px;
+    border-radius: 4px;
+}
+
+.book-details p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.book-details p:first-child {
+    font-weight: bold;
+    font-size: 1.1em;
+}
