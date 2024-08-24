@@ -1,7 +1,4 @@
 const myLibrary = []
-let block = document.getElementById("books")
-block.style.textAlign = "center"
-block.style.padding = "30px"
 
 
 
